@@ -1,0 +1,13 @@
+{
+  "compilerOprions": {
+    "strict": true,
+    "target": "ESnext",
+    "module": "ESnext",
+    "moduleResolution": "Bundler",
+    "verbatiumModuleSyntax": true,
+    "skiplibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "noUncheckedIndexAccess": true
+  }
+}
