@@ -1,12 +1,12 @@
-import type { TMediatype, TStatus } from '@app/types'
+import type { TMediaType, TStatuses } from '@app/types'
 
-export const STATUS_LABELS: Record<TStatus, string> = {
+export const STATUS_LABELS: Record<TStatuses, string> = {
   wish: 'Wish',
   progress: 'In Progress',
   done: 'Done'
 }
 
-export const TYPE_LABELS: Record<TMediatype, string> = {
+export const TYPE_LABELS: Record<TMediaType, string> = {
   movie: 'Movie',
   series: 'Series',
   game: 'Game',
