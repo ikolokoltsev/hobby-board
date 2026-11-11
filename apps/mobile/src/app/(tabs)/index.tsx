@@ -1,13 +1,18 @@
-import { MEDIA_TYPES } from '@app/types'
 import { StyleSheet, Text, View } from 'react-native'
-import { TYPE_LABELS } from '../../../../packages/constants/src'
+
+import { MEDIA_TYPES } from '@app/types'
+
+import { TYPE_LABELS } from '@app/constants'
 
 export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Hobby board</Text>
       {MEDIA_TYPES.map(type => (
-        <Text key={type} style={styles.item}>
+        <Text
+          key={type}
+          style={styles.item}
+        >
           {TYPE_LABELS[type]}
         </Text>
       ))}
